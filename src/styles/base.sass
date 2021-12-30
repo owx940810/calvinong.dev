@@ -1,4 +1,5 @@
 @import 'fonts'
+@import 'variables'
 
 *,
 *::after,
@@ -10,11 +11,42 @@ body
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   font-size: 16px
+  background-color: $bg-grey
+  color: $blue
 
 button
   background-color: transparent
   border: 0
   cursor: pointer
-  
+
+section
+  width: 70%
+  max-width: 1024px
+  margin: 0 auto
+
 .font-mono
   font-family: "Fira Code", Monospace
+
+.font-color-red
+  color: $red
+
+.font-color-blue
+  color: $blue
+
+.font-color-purple
+  color: $purple
+
+.font-color-yellow
+  color: $yellow
+
+.font-color-lime
+  color: $lime
+
+.font-color-white
+  color: $white
+
+.font-color-cloud
+  color: $cloud
+
+.font-color-grey
+  color: $grey
